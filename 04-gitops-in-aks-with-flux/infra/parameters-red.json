@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "prefix": {
+            "value": "iac-ws4"
+        },
+        "tags": {
+            "value": {
+                "Owner": "IaC Oslo",
+                "Environment": "Test",
+                "Workshop": "WS4",
+                "Location": "MS Teams",
+                "Date": "12.10.2021"
+            }
+        },
+        "slot": {
+            "value": "red"
+        },
+        "vnetAddressPrefix": {
+            "value": "10.13.0.0/16"
+        },
+        "aksSubnetAddressPrefix": {
+            "value": "10.13.0.0/23"
+        }
+    }
+}

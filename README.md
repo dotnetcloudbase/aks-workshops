@@ -25,10 +25,50 @@ The focus for this workshop is advanced configuration aspects of AKS cluster and
 
 Workshop is organized as a combination of theoretical blocks and 10 labs.
 
-## Workshop #3 - Use Pulumi to provision and configuring AKS cluster
-## Workshop #4 - Service mesh with linkerd
-## Workshop #5 - AKS application deployment options
-## Workshop #6 - security
+## [Workshop #3 - Implement Immutable AKS Infrastructure on Azure with Bicep](03-immutable-aks-infrastructure-with-bicep/readme.md)
+
+This time we will work with Azure Bicep - a Domain Specific Language (DSL) for deploying Azure resources declaratively.
+Since this year is all about AKS, we will use Bicep to implement immutable AKS infrastructure on Azure.
+
+Workshop goals:
+* get a hands-on experience working with Bicep
+* design and implement a simple immutable AKS infrastructure using Bicep
+
+Workshop is organized as a combination of theoretical blocks and 9 labs.
+
+## [Workshop #4 - GitOps in AKS with Flux](04-gitops-in-aks-with-flux/readme.md)
+
+This workshop covers the basics of GitOps in Kubernetes with [Flux](https://fluxcd.io/) and you will learn:
+
+ * How to install Flux to AKS cluster
+ * How to configure Flux with your git repositories
+ * How to continuous deliver infrastructure and workloads changes defined with Kubernetes manifests and assembled with [Kustomize](https://kustomize.io/)
+ * How to declaratively manage Helm chart releases with Kubernetes manifests 
+ * Different ways how you can structure your repositories
+ * How to upgrade flux 
+ * How to monitor flux
+
+## [Workshop #5 - scaling options for applications and clusters in AKS](05-scaling-options-in-aks/readme.md)
+
+This workshop covers scaling options for applications and clusters in AKS and you will learn:
+
+* What kind of scaling options are available for applications in AKS
+* How to manually scale pods and nodes
+* What is Horizontal pod autoscaler (HPA)
+* How cluster autoscaler works
+* What is Kubernetes-based Event Driven Autoscaler ([KEDA](https://keda.sh/))
+
+## [Workshop #6 - monitoring options in AKS](https://github.com/evgenyb/aks-workshops/tree/main/06-monitoring-options-in-aks)
 
 
+This is an introduction level workshop that covers monitoring aspects of AKS and you will learn:
+
+* What monitoring options are available for AKS
+* How to monitor AKS with Azure Monitor
+* How to collect Prometheus Metrics with Azure Monitor
+* How to monitor AKS with Prometheus and Grafana
+* How to query Azure Monitor Metrics in Grafana
+
+## Workshop #7 - service mesh in AKS with [linkerd](https://linkerd.io/)
+## Workshop #8 - security in AKS
 
